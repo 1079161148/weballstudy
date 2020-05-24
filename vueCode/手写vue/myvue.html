@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>手写vue测试简版</title>
+</head>
+<body>
+  <div id="app">
+    <!-- 插值 -->
+    <p>{{counter}}</p>
+    <!-- 指令 -->
+    <p k-text="remark"></p>
+    <p k-html="desc"></p>
+  </div>
+  <script src="compile.js"></script>
+  <script src="myvue.js"></script>
+  <script>
+    const app = new myVue({
+      el:'#app',
+      data: {
+        counter: 1,
+        remark: '自定义的k-text指令',
+        desc:'<span style="color:red">myVue的k-html指令</span>'
+      },
+    })
+    setInterval(() => {
+      app.counter++
+    }, 1000);
+  </script>
+</body>
+</html>
