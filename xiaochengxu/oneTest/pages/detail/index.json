@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#f2f1f1",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "详情页",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

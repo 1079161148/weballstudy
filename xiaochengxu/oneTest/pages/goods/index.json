@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#f2f1f1",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "商品",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    
+  }
+}
