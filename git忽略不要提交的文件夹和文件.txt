@@ -13,3 +13,5 @@ git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:1079161148/weballstudy.git
 git push -u origin master
+
+git 一般操作流程
